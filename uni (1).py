@@ -36,7 +36,29 @@ class Cat(loader.Module):
             "https://0x0.st/s/HgwlPuxVH6BAU1H11eSr8w/XEXh.jpg",
             "https://0x0.st/s/uiaGPzG-S4VhgaylnXClTg/XEXF.jpg",
             "https://0x0.st/s/-L0pG7fO-16-GHzbhw48TQ/XEXC.jpg",
-            "https://0x0.st/s/dNFxEjU829GR-ORgjusfqQ/XE8r.jpg"
+            "https://0x0.st/s/dNFxEjU829GR-ORgjusfqQ/XE8r.jpg",
+            "https://0x0.st/s/Pf6udBZIHC6u7XLK6V2iwg/X66Z.jpg",
+            "https://0x0.st/s/ewJfdQwo3ziOiK08VB5Xxw/X66P.jpg",
+            "https://0x0.st/s/5a2MaozCL1ZIEEj5wrwQ9Q/X66K.jpg",
+            "https://0x0.st/s/gwT2x2sTxMuBHX0L2A-z6w/X668.jpg",
+            "https://0x0.st/s/2aLCk6-XZ1ATMFWKcuqm7g/X66X.jpg",
+            "https://0x0.st/s/_9tmunyHMK38TY-rvXmtdQ/X66H.jpg",
+            "https://0x0.st/s/I76J8sf4powZ_loSBXV6OA/X66o.jpg",
+            "https://0x0.st/s/G-85kdpnTW6cyWN5p1mizw/X66-.jpg",
+            "https://0x0.st/s/F-ehfy0xjCwNc-K9FPGCig/X66z.jpg",
+            "https://0x0.st/s/ri5t3YZ1kg9HCoh599-vLQ/X66i.jpg",
+            "https://0x0.st/s/6jTanfoktNt0hlXMNNSg1A/X66s.jpg",
+            "https://0x0.st/s/OT6gk3QfL9LbFJoQGRSRaA/X66r.jpg",
+            "https://0x0.st/s/td2hZC8t6w3J0ZrnC0rxKQ/X6EC.jpg",
+            "https://0x0.st/s/JZyAKZwQzu_XhF5hIMQHTQ/X6EF.jpg",
+            "https://0x0.st/s/Bz-o7AtvzH00Gwrgbyoxag/X6EG.jpg",
+            "https://0x0.st/s/lWdxpDFkwy66z3pZQ1TWXw/X6E6.jpg",
+            "https://0x0.st/s/lWdxpDFkwy66z3pZQ1TWXw/X6E6.jpg",
+            "https://0x0.st/s/Bz-o7AtvzH00Gwrgbyoxag/X6EG.jpg",
+            "https://0x0.st/s/iQgNmQOT84hyEM9fZ2UJsA/X6E0.jpg",
+            "https://0x0.st/s/we6lqDsoWoABQ3yQVrtVEQ/X6El.jpg",
+            "https://0x0.st/s/Bz-o7AtvzH00Gwrgbyoxag/X6EG.jpg",
+            "https://0x0.st/s/8V0Aoya5OXcC9fagjRg72g/X6Ek.jpg"
         )
         
         await self.client.send_file(message.peer_id, random.choice(media_files), caption="<b>uni cat :3</b>")
