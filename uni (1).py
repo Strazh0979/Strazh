@@ -58,7 +58,17 @@ class Cat(loader.Module):
             "https://0x0.st/s/iQgNmQOT84hyEM9fZ2UJsA/X6E0.jpg",
             "https://0x0.st/s/we6lqDsoWoABQ3yQVrtVEQ/X6El.jpg",
             "https://0x0.st/s/Bz-o7AtvzH00Gwrgbyoxag/X6EG.jpg",
-            "https://0x0.st/s/8V0Aoya5OXcC9fagjRg72g/X6Ek.jpg"
+            "https://0x0.st/s/8V0Aoya5OXcC9fagjRg72g/X6Ek.jpg",
+            "https://0x0.st/s/LIDkwPZJXIrfsCrmAYZ0fw/X65E.jpg",
+            "https://0x0.st/s/VQhvPtRk55QiTIn2_Uvp1A/X6E5.jpg",
+            "https://0x0.st/s/4IAtrc7eZNMfK2ZxKtXytQ/X65Y.jpg",
+            "https://0x0.st/s/fZz4kSEj6g4Ekh4aMhoASA/X65x.jpg",
+            "https://0x0.st/s/z4_p0Lyv5v0T5S0oo751yQ/X65w.jpg",
+            "https://0x0.st/s/ydWncQWDAE00l0xLlEGGcg/X65v.jpg",
+            "https://0x0.st/s/_Qc_hHNtasQH2l4SkhYbOQ/X65t.jpg",
+            "https://0x0.st/s/zn3DoRwpe57h4OoVmZatZg/X65y.jpg",
+            "https://0x0.st/s/TXT4Gjd6PJMN2xfsSmp1aw/X654.jpg"
+            
         )
         
         await self.client.send_file(message.peer_id, random.choice(media_files), caption="<b>uni cat :3</b>")
